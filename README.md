@@ -75,7 +75,7 @@ BI-дашборд для анализа ключевых метрик марке
 
 ![Paid Orders Metrics](screenshots/sales_analytics/paid_orders.png)
 
-### Seller Cohorts & Retention
+### Seller Cohorts & Seller Retention
 
 ![Seller Cohorts](screenshots/seller_cohorts_retention/cohorts.png)
 
@@ -104,7 +104,7 @@ BI-дашборд для анализа ключевых метрик марке
 - Подготовил SQL-датасеты для воронки событий и когортного анализа продавцов.
 - Собрал интерактивные BI-дашборды в Yandex DataLens.
 - Разделил анализ на пользовательскую активность, продажи и retention продавцов.
-- Рассчитал продуктовые и бизнес-метрики: DAU, конверсии, GMV, AOV, ARPU, ARPPU, retention.
+- Рассчитал и визуализировал продуктовые и бизнес-метрики: DAU, конверсии, GMV, AOV, ARPU, ARPPU и retention.
 
 ## Основные выводы
 
