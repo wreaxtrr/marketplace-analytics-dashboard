@@ -69,23 +69,21 @@ BI-дашборд для анализа ключевых метрик марке
 
 ## Data Preparation
 
-Часть метрик рассчитывалась с помощью вычисляемых полей Yandex DataLens, что позволило разделить подготовку данных между SQL-слоем и BI-слоем.
-
-SQL используется для:
-- агрегации пользовательских событий;
-- расчёта когортного анализа продавцов.
-
-Yandex DataLens используется для:
-- создания вычисляемых полей;
-- расчёта производных метрик;
-- визуализации данных.
+Для подготовки данных использовались SQL-запросы и вычисляемые поля Yandex DataLens.
 
 ### SQL-based datasets
 
 | Файл | Описание |
 |---|---|
-| [events_funnel_metrics.sql](sql/events_funnel_metrics.sql) | Расчёт метрик пользовательских событий, воронки, DAU, DAC, ARPU и ARPPU |
-| [sellers_cohorts_retention.sql](sql/sellers_cohorts_retention.sql) | Когортный анализ продавцов и расчёт retention |
+| [events_funnel_metrics.sql](sql/events_funnel_metrics.sql) | Агрегация пользовательских событий за ноябрь 2019 года: sessions, DAU, users with view/cart/purchase и GMV created |
+| [sellers_cohorts_retention.sql](sql/sellers_cohorts_retention.sql) | Когортный анализ продавцов: cohort month, purchase month, active sellers, seller retention, GMV и ARPPS |
+
+### DataLens calculated datasets
+
+- `created_orders_metrics` — метрики по созданным заказам: GMV, Orders, Active Customers, AOV
+- `paid_orders_metrics` — метрики по оплаченным заказам: GMV, Orders, Paying Users, AOV, Margin
+
+Часть метрик рассчитывалась с помощью вычисляемых полей Yandex DataLens, что позволило разделить подготовку данных между SQL-слоем и BI-слоем.
   
 ### DataLens calculated datasets
 
