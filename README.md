@@ -65,7 +65,21 @@ BI-дашборд для анализа ключевых метрик марке
 
 ## Скриншоты
 
-Скриншоты будут добавлены позже.
+### Events & Funnel
+
+![Events & Funnel](screenshots/events_funnel/overview.png)
+
+### Sales Analytics
+
+![Created Orders Metrics](screenshots/sales_analytics/created_orders.png)
+
+![Paid Orders Metrics](screenshots/sales_analytics/paid_orders.png)
+
+### Seller Cohorts & Retention
+
+![Seller Cohorts](screenshots/seller_cohorts_retention/cohorts.png)
+
+![Seller Retention](screenshots/seller_cohorts_retention/retention.png)
 
 ## Data Preparation
 
