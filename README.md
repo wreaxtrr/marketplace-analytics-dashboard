@@ -98,13 +98,6 @@ BI-дашборд для анализа ключевых метрик марке
 - `paid_orders_metrics` — метрики по оплаченным заказам: GMV, Orders, Paying Users, AOV, Margin
 
 Часть метрик рассчитывалась с помощью вычисляемых полей Yandex DataLens, что позволило разделить подготовку данных между SQL-слоем и BI-слоем.
-  
-### DataLens calculated datasets
-
-- `created_orders_metrics`
-- `paid_orders_metrics`
-
-В части датасетов использовались вычисляемые поля и функции Yandex DataLens для расчёта дополнительных метрик.
 
 ## Что было сделано
 
