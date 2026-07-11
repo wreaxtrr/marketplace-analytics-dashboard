@@ -57,9 +57,11 @@ BI-дашборд для анализа ключевых метрик марке
 - GMV Created
 - ARPPS Created
 
-## Ссылка на дашборд
+## Ссылки на дашборды
 
-[Открыть дашборд в Yandex DataLens](https://datalens.yandex/k7m2yeux53723)
+- [Events & Funnel](https://datalens.yandex/k7m2yeux53723)
+- [Sales Analytics](https://datalens.yandex/j6ktthik5znw2)
+- [Seller Cohorts & Retention](https://datalens.yandex/4r6j4vj32o66n)
 
 ## Скриншоты
 
